@@ -405,6 +405,26 @@ Time: 2s
 | `order-placed` | Order Service | Notification Service | String (Order ID) | Notify of new order |
 | `order-placed-email` | Order Service | Notification Service | JSON (OrderNotification) | Send detailed order notification |
 
+### Topic Screenshots (Kafka UI)
+
+Below are screenshots showing the topics and messages as they appear in the Kafka UI dashboard (available at http://localhost:8080):
+
+#### All Topics Overview
+![Kafka Topics Overview](docs/1.Kafka-topics.png)
+[![Kafka Topics Overview (thumbnail)](docs/thumb/1.Kafka-topics_thumb.png)](docs/1.Kafka-topics.png)
+
+#### Order-Placed Topic
+![Order-Placed Topic](docs/2.Kafka-topics-order-placed.png)
+[![Order-Placed Topic (thumbnail)](docs/thumb/2.Kafka-topics-order-placed_thumb.png)](docs/2.Kafka-topics-order-placed.png)
+
+#### Order-Placed-Email Topic
+![Order-Placed-Email Topic](docs/3.Kafka-topics-order-placed-email.png)
+[![Order-Placed-Email Topic (thumbnail)](docs/thumb/3.Kafka-topics-order-placed-email_thumb.png)](docs/3.Kafka-topics-order-placed-email.png)
+
+#### Message Details
+![Message Details](docs/4.Kafka-topics-order-placed-email-details.png)
+[![Message Details (thumbnail)](docs/thumb/4.Kafka-topics-order-placed-email-details_thumb.png)](docs/4.Kafka-topics-order-placed-email-details.png)
+
 ### Topic Creation
 
 Verify topics exist:
